@@ -10,7 +10,7 @@ for _, word in ipairs(words) do
                     if not subModel:FindFirstChildOfClass("Highlight") then
                         local highlight = Instance.new("Highlight")
                         highlight.FillColor = Color3.fromRGB(255, 0, 225)
-                        highlight.OutlineColor = Color3.fromRGB(255, 0, 225)
+                        highlight.OutlineColor = Color3.fromRGB(255, 255, 255)
                         highlight.FillTransparency = 0
                         highlight.OutlineTransparency = 0
                         highlight.Parent = subModel
