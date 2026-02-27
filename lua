@@ -1,6 +1,6 @@
 local clientPlants = workspace:WaitForChild("ClientPlants")
 
-local fruits = getgenv().FruitList or {}
+local words = getgenv().FruitList or {}
 
 for _, word in ipairs(words) do
     for _, model in ipairs(clientPlants:GetChildren()) do
